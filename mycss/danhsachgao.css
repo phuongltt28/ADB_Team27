@@ -1,0 +1,232 @@
+h1 {
+	text-align: center;
+	color: black;
+	font-size: 2em;
+}
+table, tr, th, td {
+	border-collapse: collapse;
+	text-align: center;
+    font-size: 19px;
+}
+
+table{
+    width: 70%;
+    margin-bottom: 8em;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #78e080;
+}
+
+.back{
+	background: none repeat scroll 0 0 #400000;
+	border: medium none;
+    color: #fff;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.btnXem {
+	display: block;
+    background: none repeat scroll 0 0 #76a5d3;
+    border: medium none;
+    color: #fff;
+    padding: 10px 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-style: none;
+    text-decoration: none;
+    margin: 6px 6px;
+    width: 34px;
+}
+
+.btnXem:hover {
+    background: royalblue;
+}
+	
+		
+.btnThem {
+    background: none repeat scroll 0 0 #5a88ca;
+    border: medium none;
+    color: #fff;
+    padding: 30px 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 18%;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btnTimKiem {
+    background: none repeat scroll 0 0 #a949ca;
+    border: medium none;
+    color: #fff;
+    padding: 30px 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 14%;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btnTimKiem:hover {
+    background: rebeccapurple;
+}
+
+.btnThem:hover{
+	background: none repeat scroll 0 0 #4352bc;
+}
+
+.updateAll, .btnCapNhat {
+    background: none repeat scroll 0 0 #e3673a;
+    border: medium none;
+    color: #fff;
+    padding: 30px 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 14%;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.updateAll:hover, .btnCapNhat:hover {
+    background: orangered;
+}
+
+
+button {
+	cursor: pointer;
+}
+
+.momo {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.momo.momodira {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.updateAllForm {
+    background: seashell;
+    position: fixed;
+    z-index: 2;
+    width: 50%;
+    text-align: center;
+    visibility: hidden; 
+    opacity: 0; 
+    transition: 0.4s;
+    transform: scale(0.3); 
+    left: 28%;
+    top: 15%;
+}
+
+/*updateAllForm hiện ra*/
+.updateAllForm.updateAllFormhienra {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.updateAllForm label {
+    padding: 0px 15px;
+    font-weight: 100;
+}
+
+.updateAllForm .btnField {
+    text-align: center;
+}
+
+/*Phần nút Thoát*/
+.updateAllForm .nutdong {
+    width: 100px;
+    text-align: center;
+    background: #6F1E1E;
+    padding: 6px 0;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+    margin-left: 20px;
+}
+
+.updateAllForm .nutdong:hover {
+    background: black;
+} /*End phần nút Thoát*/
+
+.updateAllForm .tab{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+}
+
+.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    margin: 0px 5px;
+    font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active, .tab button:hover {
+  background-color: whitesmoke;
+  color: dodgerblue;
+  border-bottom: 4px solid lightskyblue;
+}
+
+.updateForm {
+    margin: 20px;
+}
+
+.updateForm.updateFormandi {
+    opacity: 0;
+    visibility: hidden;
+} 
+
+.updateForm .btnField {
+    padding: 20px;
+}
+
+input#updateAll {
+    width: 12em;
+    height: 2em;
+    padding: 9px 0px;
+    margin-left: -1em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.update-table tr, .update-table th, .update-table td {
+    font-size: 21px;
+}
+
+.update-table select, .update-table input {
+    font-size: 17px;
+}
+
+.update-table input {
+    width: 26em;
+}

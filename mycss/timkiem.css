@@ -1,0 +1,57 @@
+input[type="radio"] {
+    width: 17px;
+    margin: 0em 1.4em;
+    height: 1em;
+}
+
+table#tb_result, tr#tb_result, th#tb_result, td#tb_result {
+	border-collapse: collapse;
+	text-align: center;
+  font-size: 19px;
+}
+
+#tb_result td, #tb_result th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 8px;
+}
+
+#tb_result th {
+  text-align: center;
+}
+
+#tb_result tr:nth-child(even) {
+  background-color: #78e080;
+}
+
+table#tb_result {
+    width: 70%;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+.back{
+  background: none repeat scroll 0 0 #400000;
+  border: medium none;
+    color: #fff;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.btnXem {
+  display: block;
+    background: none repeat scroll 0 0 #76a5d3;
+    border: medium none;
+    color: #fff;
+    padding: 10px 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-style: none;
+    text-decoration: none;
+    margin: 6px 6px;
+    width: 34px;
+}
+
+.btnXem:hover {
+    background: royalblue;
+}

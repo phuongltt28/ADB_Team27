@@ -1,0 +1,82 @@
+h1 {
+	color: red;
+	text-align: center;
+}
+
+input#donvi {
+    width: 2em;
+    text-align: center;
+    border: none;
+    font-size: 0.9em;
+}
+
+.them {
+	background: none repeat scroll 0 0 lightseagreen;
+	border: medium none;
+    color: #fff;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin: 18px 41%;
+    font-size: 20px;
+}
+
+input.them:hover {
+    background: darkcyan;
+}
+
+.xoa, .sua{
+	background: none repeat scroll 0 0 royalblue;
+    border: medium none;
+    color: #fff;
+    padding: 10px 19px;
+    cursor: pointer;
+    font-size: 1em;
+}
+		
+.xoa {
+	/*margin: 2em 22.4em;*/
+	background: darkred;
+}
+
+.back{
+    background: none repeat scroll 0 0 #da0404;
+    border: medium none;
+    color: #fff;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.back:hover {
+    background: red;
+}
+
+input.sua {
+    margin: 2em 9em;
+    /* float: left; */
+}
+
+input.sua:hover {
+    background: blue;
+}
+
+input.xoa:hover {
+    background: #e13c1e;
+}
+
+select {
+    height: 2em;
+    font-size: 15px;
+}
+
+input {
+    height: 2em;
+    font-size: 15px;
+}
+
+table th, tr, td {
+    font-size: 20px;
+    padding: 6px 0px;
+}
+	
